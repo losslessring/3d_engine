@@ -59,7 +59,8 @@ const check_intersection = (array1, array2, limit) => {
 				Math.abs(array1[i].y - array2[j].y) <= limit && 
 				Math.abs(array1[i].z - array2[j].z) <= limit) {
 					
-					return {array1 :array1[i], array2: array2[j]}
+					//return {array1 :array1[i], array2: array2[j]}
+					return array1[i]
 			}
 		}
 	}

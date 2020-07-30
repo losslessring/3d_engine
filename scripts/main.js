@@ -24,3 +24,7 @@ console.log(intersection)
 drawLine(geometry_objects[0])
 drawLine(geometry_objects[1])
 drawCircle(intersection, 8, "red")
+
+//Сделать игровое поле, накидать линий
+//Сделать пересечение линий с лучом
+// Сделать массив лучей
